@@ -143,3 +143,4 @@ fabric.properties
 /test.db
 /http-client.private.env.json
 /mynumber.db
+/**/vendor
