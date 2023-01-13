@@ -1,8 +1,7 @@
 go 1.19
+
 use (
-	apps/app-one
-	apps/app-two
-	domain/orders
-	domain/products
-	domain/users
+	./apps/app-one
+	./apps/app-two
+	./domain
 )

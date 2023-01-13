@@ -144,3 +144,4 @@ fabric.properties
 /http-client.private.env.json
 /mynumber.db
 /**/vendor
+/.idea/
