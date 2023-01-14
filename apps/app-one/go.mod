@@ -2,7 +2,10 @@ module github.com/hillfolk/go-monorepo/app-one
 
 go 1.19
 
-require github.com/labstack/echo/v4 v4.10.0
+require (
+	github.com/hillfolk/go-monorepo/domain v0.0.0-20230114100723-baf0c4dd52dd
+	github.com/labstack/echo/v4 v4.10.0
+)
 
 require (
 	github.com/labstack/gommon v0.4.0 // indirect
@@ -16,5 +19,3 @@ require (
 	golang.org/x/text v0.5.0 // indirect
 
 )
-
-replace github.com/hillfolk/go-monorepo/domain => ../../domain
